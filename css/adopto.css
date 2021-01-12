@@ -1,50 +1,57 @@
 *{margin: o; padding: 0;}
-
-body {
+*{
 	padding: 0;
 	margin: 0;
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
+
 .header {
-	background: transparent;
-	padding-top: 10px;
-	min-height: 55px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 5%;
+    height: 5px;
+	flex-wrap: wrap;
 }
 .header a{
-	color: #DDDDDD;
+	color: #880e4f;
 	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 105%;
-	transition: 0.7s;
+	font-size: 110%;
 	font-weight: bold;
 }
 .header ul{
-	margin-left: 40%;
+	margin-left: 35%;
 }
 .header li{
 	float: left;
 	display: inline;
 	padding: 0 17px 0 17px;
-	
 }
-.header li:hover {
-	transition: 0.6s;
-	background-color: #BCD5D1;
+.header li:hover{
+	transition: 3s;
+	background-color: gray;
 	opacity: 0.9;
 	border-top-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	border-top-right-radius: 7px;
 	border-bottom-left-radius: 7px;
 }
-.header li:hover a{
-	transition: 1s;
-	color: black;
+.header #divH1{
+	height: 40px;
+	width: 50px;
+	float: left;
 }
-.nav {
+.header nav{
+	float:right;
+	margin-top: 20px;
+	margin-top: 6%; 
+	margin-right: 7%;
+}
+.nav{
 	width: 100%;
+	height: 25px;
 	margin-top: 5px;
-	margin: auto;
-	overflow: hidden;
 }
 .header #divH1{
 	min-height: 50px;
